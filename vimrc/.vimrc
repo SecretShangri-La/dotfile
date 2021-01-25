@@ -1,25 +1,28 @@
 call plug#begin()
+
 Plug 'morhetz/gruvbox'
 Plug 'romainl/Apprentice'
 Plug 'AlessandroYorba/Alduin'
 Plug 'jeetsukumaran/vim-nefertiti'
-Plug 'KKPMW/moonshine-vim'
 Plug 'racer-rust/vim-racer'
 Plug 'rust-lang/rust.vim'
 Plug 'vim-crystal/vim-crystal'
 Plug 'arcticicestudio/nord-vim'
 Plug 'scrooloose/nerdtree'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim'
 Plug 'neoclide/coc-solargraph'
+Plug '/ap/vim-css-color'
+
 call plug#end()
 
-colorscheme apprentice
+colorscheme alduin
 
 set wildmenu
 set wildmode=full
 set background=dark
 "set background=light
 set termguicolors
+set term=xterm-256color
 syntax on
 set number
 set expandtab
