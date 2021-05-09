@@ -11,11 +11,14 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'neoclide/coc-solargraph'
-Plug '/ap/vim-css-color'
 
 call plug#end()
 
-colorscheme alduin
+"colorscheme alduin
+"colorscheme apprentice
+"colorscheme nord
+"colorscheme gruvbox
+
 
 set wildmenu
 set wildmode=full
